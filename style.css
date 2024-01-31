@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+
+.navbar{
+    background-image: linear-gradient(to right,#a517ba,#5f1782); 
+}
+
+.navbar-brand img{
+    height: 35px;
+    margin-left: 10px;
+}
+
+.navbar-nav li{
+    padding: 10px;
+}
+
+.navbar-nav li a{
+    color: #fff;
+    font-weight: 500;
+    text-align: right;
+}
+
+.navbar-nav li a:hover{
+    color: rgb(108, 189, 216);
+    transition: all 0.5s;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 30px;
+}
+
+@media (max-width: 700px){
+    
+}
+/*-----------------Banner--------------------*/
+#banner{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color:#fff;
+    padding-top: 5%;
+}
+
+.promo-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.discription{
+    font-size: 13px;
+}
+
+.play-btn{
+    width: 40px;
+}
+
+.tutorial{
+    color: #fff;
+    margin-left: 18px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.tutorial:hover{
+    text-decoration: none;
+    color: rgb(108, 189, 216);
+}
+
+.bottom-img{
+    width: 100%;
+   
+}
+/*-----------------------Services--------------------*/
+#services{
+   padding: 80px;
+}
+
+.service h4{
+    padding-top: 10px;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+}
+
+.service-img{
+    width: 90px;
+    margin: 20px;
+}
+
+.title{
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+
+.title::before{
+    content: "";
+    background: #7b1798;
+    width: 200px ;
+    height: 5px;
+    margin: auto;
+    display: block;
+    transform: translateY(66px);
+}
+
+.title::after{
+    content: "";
+    background: #7b1798;
+    width: 100px ;
+    height: 4px;
+    margin: auto;
+    display: block;
+    transform: translateY(30px);
+}
+
+.services-btn{
+    margin-top: 20px;
+}
+
+@media (max-width: 700px){
+
+    .title{
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+
+    .title::before{
+        content: "";
+        background: #7b1798;
+        width: 200px ;
+        height: 5px;
+        margin: auto;
+        display: block;
+        transform: translateY(60px);
+    }
+    .title::after{
+        content: "";
+        background: #7b1798;
+        width: 100px ;
+        height: 4px;
+        margin: auto;
+        display: block;
+        transform: translateY(35px);
+    }
+}
+/*----------------------About us----------------------*/
+
+#about-us{
+    padding: 70px 0;
+    background: #f8f9fa;
+}
+
+.about-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+#about-us ul li{
+    margin: 10px 0;
+}
+
+@media (max-width: 700px) {
+
+    .about-title{
+        font-size: 23px;
+    }
+
+    #about-us{
+        padding: 60px;
+    }
+}
+
+/*----------------------Testimonials----------------------*/
+
+#testimonials{
+    margin: 100px;
+}
+
+.testimonials{
+    border-left: 4px solid #7b1798;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.row{
+    margin-top: 40px;
+}
+
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/*---------------------Social media---------------------*/
+
+#social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+/*---------------------footer---------------------*/
+
+#footer{
+    background: linear-gradient(to right,#a517ba,#5f1782);
+    color: #fff;
+}
+
+.footer-img{
+    width: 100%;
+}
+
+.footer-box{
+    padding: 20px;
+}
+
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footer-box .fa{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background: linear-gradient(to right,#a517ba,#5f1782);
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+.submit-btn{
+    margin-top: 30px;
+}
+
+hr{
+    background-color: #fff;
+}
+
+.copyright{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
